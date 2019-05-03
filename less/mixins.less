@@ -1,1 +1,20 @@
 // Mixins Here
+.btn-mxn(@size, @wide) {
+    color: white;
+    background-color: @btn-bg-color;
+    padding: @size;
+    width: @wide;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    border: 1px solid @btn-bg-color;
+    text-align: center;
+}
+
+.btn-hvr() {
+    color: @btn-bg-color;
+    background-color: white;
+}
+
+.mobile-width(@wide) {
+    width: @wide;
+}
