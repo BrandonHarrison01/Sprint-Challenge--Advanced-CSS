@@ -1,3 +1,9 @@
+@keyframes color-fade {
+  to {
+    background-color: #23293B;
+    color: white;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -198,6 +204,12 @@ p {
   text-decoration: none;
   font-size: 1.7rem;
   color: black;
+  padding: 3px;
+  border-radius: 3px;
+}
+.title-nav nav a:hover {
+  animation-name: color-fade;
+  animation-duration: 1s;
 }
 footer {
   color: #22283B;
